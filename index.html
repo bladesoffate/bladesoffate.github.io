@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <title>blades of fate</title>
 <style>
-.stars {
+    @font-face {
+      font-family: 'Topaz';
+      src: url('fonts/Topaz.ttf');
+    }
+
+    html,
+    body {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      background: #000;
+      perspective: 340px;
+      font-family: 'Topaz', 'Courier New', Courier, monospace;
+    }
+
+    .stars {
       position: absolute;
       top: 50%;
       left: 50%;
